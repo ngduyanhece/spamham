@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "spamham"
+version = "0.1.0"
+description = "analyze and classify the spam and ham email"
+authors = ["andy"]
+license = "mit"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^2.2.2"
+matplotlib = "^3.9.2"
+seaborn = "^0.13.2"
+nltk = "^3.9.1"
+scikit-learn = "^1.5.2"
+gensim = "^4.3.3"
+transformers = "^4.44.2"
+torch = "^2.4.1"
+jupyterlab = "^4.2.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
